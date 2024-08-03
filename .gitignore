@@ -1,0 +1,7 @@
+
+/node_modules
+Dockerfile
+.dockerignore
+*.iml
+/package-lock.json
+/pnpm-lock.yaml

@@ -1,0 +1,33 @@
+{
+  "name": "bigdata-server",
+  "version": "1.0.0",
+  "description": "bigdata-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .js",
+    "dev": "nodemon .js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "date-fns": "^3.1.0",
+    "express": "^4.18.2",
+    "fs": "0.0.1-security",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^3.8.0",
+    "node-cron": "^3.0.3",
+    "node-schedule": "^2.1.1",
+    "pg": "^8.10.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
