@@ -5,3 +5,4 @@ Dockerfile
 *.iml
 /package-lock.json
 /pnpm-lock.yaml
+.vercel

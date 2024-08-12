@@ -2,4 +2,5 @@
 
 module.exports = {
     FinancialController: require("./financial.controller"),
+    UserController: require("./user.controller"),
 }
