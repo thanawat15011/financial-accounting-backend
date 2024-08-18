@@ -70,7 +70,7 @@ Task.insertUser = function insertUser(data, connection) {
 Task.checkLogin = function checkLogin(data, connection) {
   return new Promise((resolve, reject) => {
     let sql = `
-                  SELECT * 
+                  SELECT user_table_uuid, username, password, employee_table_uuid
                   FROM ${db["base"]}.tb_user AS tb1 
                   WHERE username = ${connection.escape(data.username)};
               `

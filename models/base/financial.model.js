@@ -70,6 +70,7 @@ Task.insertFinancial = function insertFinancial(data, connection) {
 }
 
 Task.updateFinancialById = function updateFinancialById(data, connection) {
+  console.log(data)
   return new Promise((resolve, reject) => {
     let sql = `UPDATE ${db["base"]}.tb_financial SET 
     financial_name = ${connection.escape(data.financial_name)}, 
