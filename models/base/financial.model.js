@@ -16,6 +16,7 @@ Task.getFinancialBy = function getFinancialBy(data, connection) {
         SELECT *
         FROM ${db["base"]}.tb_financial AS tb1 
         where 1 
+        ORDER BY financial_date ASC
         `
     connection.query(sql, (err, res) => {
       if (err) {
